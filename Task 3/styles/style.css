@@ -180,6 +180,9 @@ button {
 .contact-section {
   margin: 2rem 0 0;
 }
+.print {
+  width: 16rem;
+}
 
 @media (min-width: 800px) {
   .Navbar__links {
