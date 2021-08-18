@@ -2,7 +2,7 @@
 
 -
 
-#### LINK TO RESUME
+### LINK TO RESUME
 
 - [My resume](https://hng-task-stage-two-three.vercel.app/)
 ### LINK TO NAME PRINTING PROGRAM
