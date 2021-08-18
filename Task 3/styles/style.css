@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@300&display=swap");
+* {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.profile-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.icons {
+  width: 2rem;
+  height: 2rem;
+}
+.logo {
+  width: 3rem;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+body {
+  font-size: 16px;
+
+  background: radial-gradient(
+    circle at center,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  color: white;
+}
+
+.med-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #03045e;
+}
+.med-heading-2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #023e8a;
+}
+.para {
+  font-size: 1rem;
+}
+b {
+  color: #03045e;
+}
+
+.date {
+  color: #03045e;
+  font-weight: 700;
+}
+button {
+  background: #023e8a;
+}
+.flex-aligned {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.flex-aligned-start {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.flex-aligned-center {
+  justify-content: center;
+}
+.flex-aligned-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.fd-column {
+  flex-direction: column;
+}
+.Navbar__items {
+  gap: 0.6rem;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+.Navbar__links {
+  color: white;
+  font-size: 13px;
+}
+.Hero {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.btn-contact {
+  background: #023e8a;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  padding: 10px;
+  margin: 1rem 0;
+  border: transparent;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.contact-link {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.container {
+  padding: 20px 10px;
+}
+/* about me */
+
+.about-me {
+  margin: 2rem 0;
+}
+
+/* experience */
+
+.experience {
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.experience .med-heading {
+  margin-bottom: -1rem;
+}
+.experience__item {
+  gap: 2rem;
+}
+
+/* skills */
+.skills {
+  margin: 2rem 0;
+}
+
+/* career traits */
+.career-traits {
+  margin: 2rem 0;
+}
+
+/* works */
+.work-link {
+  color: white;
+}
+.work-link:hover {
+  color: #f4472f;
+}
+.link-icon {
+  width: 1.2rem;
+}
+
+.contact {
+  gap: 3rem;
+  margin: 1rem 0;
+}
+
+.contact-section {
+  margin: 2rem 0 0;
+}
+
+@media (min-width: 800px) {
+  .Navbar__links {
+    font-size: 1.2rem;
+  }
+  .Navbar__items {
+    gap: 2rem;
+    right: 30px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: -3rem;
+  }
+  .inner-container {
+    width: 45%;
+    height: 1100px;
+  }
+  .contact-section {
+    margin-top: -20rem;
+    margin-bottom: 0;
+  }
+}

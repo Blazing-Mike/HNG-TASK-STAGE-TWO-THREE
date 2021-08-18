@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  font-size: 17px;
+  background-color: black;
+  font-family: "Roboto Mono", monospace;
+}
+h2 {
+  color: #15df03;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+button {
+  width: 15rem;
+  height: 3rem;
+  color: black;
+  background: #15df03;
+  border: transparent;
+  padding: 5px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 25rem;
+  margin: auto;
+}
+
+.inner-container {
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.show {
+  display: flex;
+}
+
+.para {
+  width: 100%;
+  padding: 25px;
+  background-color: #15df03;
+  color: black;
+  text-align: center;
+}
+
+.btn-contact {
+  background: #15df03;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  padding: 10px;
+  margin: 1rem 0;
+  border: transparent;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.contact-link {
+  font-size: 1.1rem;
+  color: white;
+}
